@@ -16,6 +16,6 @@ public class O_Nestedloop {
             }
             System.out.println();
         }
-
+        scan.close();
     }
 }
