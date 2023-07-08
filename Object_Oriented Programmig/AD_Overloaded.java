@@ -7,7 +7,7 @@ public class AD_Overloaded {
         System.out.println(car1.company);
     }
 }
-
+//basicallu overloaded constructor have same name but diff parameters
 class Car{
     String name ;
     String company ;
