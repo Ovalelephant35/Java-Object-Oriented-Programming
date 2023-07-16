@@ -1,4 +1,4 @@
-public class B_Datatypes{
+public class Datatypes{
     public static void main(String[] args){
         int ans = 1;
         boolean b = true;
