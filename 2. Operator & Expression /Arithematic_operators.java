@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class E_Arithematic_operators{
+public class Arithematic_operators{
     public static void main(String[] args){
     Scanner scan = new Scanner(System.in);
     int a = scan.nextInt();
