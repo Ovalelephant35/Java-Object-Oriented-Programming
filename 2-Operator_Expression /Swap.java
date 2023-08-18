@@ -1,4 +1,4 @@
-public class C_Swap {
+public class Swap {
     public static void main(String[] arsg){
         int a = 5;
         int b = 10;
