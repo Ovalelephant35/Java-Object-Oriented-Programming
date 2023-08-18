@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class R_MethodsString {
+public class MethodsString {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the two strings : ");

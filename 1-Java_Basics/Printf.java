@@ -1,4 +1,4 @@
-public class Y_Printf {
+public class Printf {
     public static void main(String[] args){
         boolean b = true;
         int ans = 56;

@@ -1,4 +1,4 @@
-public class S_Wrapperclass {
+public class Wrapperclass {
     public static void main(String[] args){
         Integer a = 5;
         if(a.equals(5)){
