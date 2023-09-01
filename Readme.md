@@ -47,12 +47,7 @@ The `inputoutput-and-file-handling` directory demonstrates how to read from and 
 ## Java GUI
 
 The `java-gui` directory covers graphical user interface (GUI) programming in Java. It explores various GUI frameworks such as Swing, JavaFX, and AWT. You will learn how to create windows, dialogs, buttons, menus, and handle user events.
-<!-- CONCURRENCY -->
-<!-- WEB DEVELOPMENT WITH JAVA -->
-<!-- JAVA FRAMEWORKS -->
-<!-- DATABASE CONNECTIVITY -->
-<!-- NETWORKING -->
-<!-- COLLECTIONS AND GENERICS -->
+
 ## Testing and Debugging
 
 The `testing-and-debugging` directory focuses on testing and debugging Java applications. It covers unit testing with JUnit, debugging techniques, logging, and performance profiling. These skills are essential for ensuring the reliability and quality of your code.
