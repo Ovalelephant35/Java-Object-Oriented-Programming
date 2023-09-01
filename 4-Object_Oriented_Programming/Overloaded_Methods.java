@@ -1,4 +1,4 @@
-public class Overloaded {
+public class Overloaded_Methods {
     static void add(int a1 , int a2){
         System.out.println("Method 1 is used : ");
         System.out.println("Answer is : "+(a1+a2));
