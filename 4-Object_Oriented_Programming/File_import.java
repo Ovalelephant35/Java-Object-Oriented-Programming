@@ -5,5 +5,6 @@ import java.util.regex.*;
 public class File_import {
     public static void main(String[] args){
         Pattern p = Pattern.compile("ab");
+        System.out.println(p);
     }
 }
