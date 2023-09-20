@@ -1,6 +1,6 @@
 public class To_String {
     public static void main(String[] args){
-        Car car = new Car();
+        Carss car = new Carss();
         System.out.println(car);//tostring has been implicitily called 
         System.out.println(car.toString());//tostring has been explicitally called
         //here we can see that tostring job is to create a address of the object and
@@ -8,7 +8,7 @@ public class To_String {
     }
 }
 
-class Car{
+class Carss{
     String make = "Ford";
     String model = "Mustang";
     String color = "red";
