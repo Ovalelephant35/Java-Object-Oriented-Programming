@@ -1,5 +1,5 @@
 //here we can decleare any number of class(not public) with name of file being anything without any compilation error
-class A{
+class A1{
     public static void main(String[] args){
         System.out.println("Class A");
     }
