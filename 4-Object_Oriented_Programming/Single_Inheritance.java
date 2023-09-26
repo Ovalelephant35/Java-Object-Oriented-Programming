@@ -4,7 +4,7 @@ class Single{
     }
 }
 
-class Child extends Single{
+class child extends Single{
     public void m2(){
         System.out.println("This method is present in child class with name m2");
     }
@@ -12,7 +12,7 @@ class Child extends Single{
 
 public class Single_Inheritance{
     public static void main(String[] args){
-        Child c = new Child();
+        child c = new child();
         c.m1();
         c.m2();
     }
