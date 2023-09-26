@@ -25,3 +25,5 @@ public class Heirirical_Inheritance {
 
     }
 }
+//hybrid inheritance is not allowed in java as again it contains mutliple inheritance
+//cyclic inheritance is also not allowed as it is just not optimizd and not a good practice to write a code
