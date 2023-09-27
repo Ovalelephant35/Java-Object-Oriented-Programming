@@ -1,11 +1,11 @@
 class Single{
-    public void m1(){
+    public void m5(){
         System.out.println("In this There is only one child and only one Parent");
     }
 }
 
 class child extends Single{
-    public void m2(){
+    public void m6(){
         System.out.println("This method is present in child class with name m2");
     }
 }
@@ -13,7 +13,7 @@ class child extends Single{
 public class Single_Inheritance{
     public static void main(String[] args){
         child c = new child();
-        c.m1();
-        c.m2();
+        c.m5();
+        c.m6();
     }
 }

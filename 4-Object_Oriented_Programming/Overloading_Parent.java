@@ -1,23 +1,23 @@
 class animals{
-    public void m1(animals a){
+    public void m1(){
         System.out.println("This is the parent animal class");
     }
 }
 class monkey extends animals{
-    public void m1(monkey m){
+    public void m1(){
         System.out.println("This is the Child class to parent animal");
     }
 }
 public class Overloading_Parent {
     public static void main(String[] args){
         monkey n = new monkey();
-        n.m1(n);
+        n.m1();
         animals a = new animals();
-        a.m1(a);
+        a.m1();
         monkey m = new monkey();
-        m.m1(m);
+        m.m1();
         animals b = new monkey();
-        b.m1(b);
+        b.m1();
     }
 }
 //if no parameter is passes it and there is overridden methods it depends on the objects

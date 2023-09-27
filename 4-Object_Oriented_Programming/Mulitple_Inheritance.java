@@ -6,7 +6,7 @@ interface p1{
 interface p2{
     public void m2();
 }
-interface a1 extends p1,p2{
+interface a19 extends p1,p2{
 
 }
 //there wont be any problem in compilation though further we need to implement this using class and then use that class to further use it in our code
