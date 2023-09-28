@@ -30,3 +30,4 @@ public class Overriding_Parent {
 //We will make it very simple first we know that compiler is there then runtime acts 
 //so first compiler will come and according to referce type it will check all the methods and parameters (method signature)
 //then runtime (jBm) will come and see if there are any overridden methods with proper methods and parameters(method signature) it will give proirity to them accoriding to objects
+//but overriding is not a easy process it is more than just method signature and everything has to match then only it will show the desired output
