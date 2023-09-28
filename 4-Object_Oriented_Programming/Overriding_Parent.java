@@ -10,9 +10,9 @@ class monkey extends animals{
 }
 public class Overriding_Parent {
     public static void main(String[] args){
-        animals a = new animals();
         monkey n = new monkey();
         n.m1();
+        animals a = new animals();
         a.m1();
         monkey m = new monkey();
         m.m1();
@@ -20,7 +20,6 @@ public class Overriding_Parent {
         b.m1();
     }
 }
-//if no parameter is passes it and there is overridden methods it depends on the objects
-//when parameter is passed first it try to match perfect method with perfect parameters though if best parameters are found in parent class it will access but not vice versa and it is resolved using refernce data types only 
-//keep these point in mind
-//here we have encountered overloading as well as overriding
+//We will make it very simple first we know that compiler is there then runtime acts 
+//so first compiler will come and according to referce type it will check all the methods and parameters (method signature)
+//then runtime (jBm) will come and see if there are any overridden methods with proper methods and parameters(method signature) it will give proirity to them accoriding to objects
