@@ -4,7 +4,7 @@ class alpha{
 class beta extends alpha{
 
 }
-class test{
+class testing{
     public void m1(alpha a){
         System.out.println("This is Alpha version");
     }
@@ -14,7 +14,7 @@ class test{
 }
 public class Overloading_Reference {
     public static void main(String[] args){
-    test t = new test();
+    testing t = new testing();
     alpha a = new alpha();
     beta b = new beta();
     alpha a1 = new beta();
