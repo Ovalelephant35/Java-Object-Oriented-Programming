@@ -3,7 +3,7 @@ public class Static_Keyword {
         Friend friend1 = new Friend("Oval");
         String a = friend1.name;
         System.out.println(a);
-        System.out.println(Friend.numberoffri);//basically the class owns the member
+        System.out.println(Friend.numberoffri);//basically the class owns the member it is not owned by different objects but they share it 
     }
 }
 class Friend{
