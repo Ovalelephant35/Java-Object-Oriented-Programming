@@ -1,13 +1,10 @@
 public class Array_of_objects {
     public static void main(String[] args){
         //Food[] ref = new Food[3];
-        Food food1 = new Food("Paneer");
-        Food food2 = new Food("chicken");
-        Food food3 = new Food("Pizza");
-        Food[] ref = {food1,food2,food3};
-        // ref[0] = food1;
-        // ref[1] = food2;
-        // ref[2] = food3;
+        Food[] ref = new Food[3];
+        ref[0] = new Food();
+        ref[0].name = "anurag";
+        
         System.out.println(ref[0].name);
 
 
@@ -15,8 +12,8 @@ public class Array_of_objects {
 }
 class Food{
     String name; 
-    Food(String name){
-        this.name = name;
-    }
+    // Food(String name){
+    //     this.name = name;
+    // }
     
 }
