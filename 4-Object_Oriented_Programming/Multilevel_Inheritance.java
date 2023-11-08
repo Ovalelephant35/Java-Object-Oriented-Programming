@@ -25,7 +25,6 @@ public class Multilevel_Inheritance {
         a.m10();
         B2 b  = new B2();
         b.m10();
-        b.m6();
         C2 c  = new C2();
         c.m10();
         c.m6();
