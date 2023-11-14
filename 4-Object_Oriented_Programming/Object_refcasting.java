@@ -14,7 +14,7 @@ class cst extends bst{
     }
 }
 public class Object_refcasting {
-    public static void main(String[] args){
+        public static void main(String[] args){
         cst c = new cst();
         c.m1();
         ((bst) c).m1();//based on refernce type as it refernce type when static keyword is used
