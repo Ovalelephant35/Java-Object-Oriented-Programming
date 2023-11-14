@@ -31,3 +31,7 @@ public class Multilevel_Inheritance {
         c.m9();
     }
 }
+class Demo{
+
+
+}
