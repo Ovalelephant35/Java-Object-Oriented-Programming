@@ -5,7 +5,7 @@ class Person {
     private String address;
     public static int num_of_people;
 
-    public Person(String name, int age) { // Constructor
+    public Person(String name, int age) { 
         this.name = name;
         this.age = age;
         this.address = "NOT SET";
@@ -42,12 +42,10 @@ class Person {
 
 class BankAccount {
 
-    private Person owner; // Object of the Person Class as a field
+    private Person owner; 
     private int balance;
-    // private String logger; // This stores the last transaction in a String (Eg: "Transferred Rs. 100",
-                           // "Deposited Rs. 1000")
-    static final int MIN_BALANCE = 1000; // This is the minimum balance needed for making a transaction
-    private static int num_of_banks; // Update the number of banks each time a bank is created
+    static final int MIN_BALANCE = 1000;
+    private static int num_of_banks;
 
     public BankAccount(Person owner, int initialBal) {
         this.owner = owner;
@@ -62,7 +60,7 @@ class BankAccount {
     }
 
     public String getOwnerName() {
-        return owner.name;
+        return owner.getName();
     }
 
     public int getOwnerAge() {
@@ -87,7 +85,7 @@ class BankAccount {
     public int transfer(int amount, BankAccount other) {
         if(balance-MIN_BALANCE<amount)return -1;
         balance-=amount;
-        other.balance+=amount;
+        other.deposit(amount);
         return 0;
     }
 
@@ -105,7 +103,7 @@ class BankAccount {
 public class BankProb{
     public static void main(String[] args) {
         Person p1 = new Person("Adam", 25);
-        System.out.println(p1 + "\n"); // What method of the Person is being used here?
+        System.out.println(p1 + "\n");
 
         Person p2 = new Person("John", 20);
         p2.setAddress("BITS GOA");
