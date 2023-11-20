@@ -23,7 +23,7 @@ class calc{//local variable are part of stack
 
 }
 
-public class Calculator {
+public class Calculators {
     public static void main(String[] args){
         calc c1 = new calc();//created inside heap memory 
         System.out.println(c1.add(5.6 , 2));//local variable are part of stack
