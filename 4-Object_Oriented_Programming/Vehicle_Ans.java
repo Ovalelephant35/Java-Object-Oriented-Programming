@@ -1,11 +1,11 @@
 class foo {
-    private Bar bar;
-    public void setbar(Bar bar1){
-        this.bar = bar1;
-    }
-    void set(){
-        bar = new Bar();
-    }
+
+    // public void setbar(Bar bar1){
+    //     this.bar = bar1;
+    // }
+    // void set(){
+    //     bar = new Bar();
+    // }
 }
 
 class Bar{
