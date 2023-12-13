@@ -2,7 +2,12 @@ public abstract class AbsM_AbsC {
     public abstract void m1();
     public abstract void m2();
 }
-abstract class test extends AbsM_AbsC{
+
+abstract class matter{
+    public abstract void m1();
+    public abstract void m2();
+}
+abstract class test extends AbsM_AbsC {
      public void m1(){
 
     }

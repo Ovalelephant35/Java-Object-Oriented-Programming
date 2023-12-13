@@ -1,24 +1,33 @@
-abstract class Vehicles {
-    public abstract int wheel();
-}
-//child class bus
-class Bus extends Vehicles{
-    public int wheel(){
-        return 8;
+class foo {
+    private Bar bar;
+    public void setbar(Bar bar1){
+        this.bar = bar1;
+    }
+    void set(){
+        bar = new Bar();
     }
 }
-//child class auto 
-class Auto extends Vehicles{
-    public int wheel(){
-        return 3;
+
+class Bar{
+    private static int srno=5 ;
+    private int mySr=0;
+    public Bar(){
+        mySr = srno++;
     }
+    static void m1(){System.out.println(srno);}
+    void m2(){System.out.println(mySr);}
+
 }
+
 public class Vehicle_Ans{
     public static void main(String[] args){
-    Bus b = new Bus();
-    System.out.println(b.wheel());
-    Auto a = new Auto();    
-    System.out.println(a.wheel());
+    Bar bar1 = new Bar() ;
+    Bar.m1();
+    bar1.m2();
+    // foo f1 = new foo();
+    // f1.setbar(new Bar());
+    // Bar.m1();
+    // bar1.m2();
 }
 }
 

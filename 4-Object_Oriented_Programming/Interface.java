@@ -2,8 +2,11 @@ interface interf{
     void m1();
     public void m2();//all methods should be abstract and public whether you decleare or not
 }
+interface in{
 
-abstract class Interfac implements interf {
+}
+
+abstract class Interfac implements interf , in {
     public void m1(){
         System.out.println("This is method 1 in parent service provider");
     }
